@@ -19,7 +19,7 @@ export default {
   data() {
     return {
       isOpen: false,
-      isLogin: false,
+      isLogin: true,
       chattingImage,
       closeImage,
     };
