@@ -90,7 +90,12 @@
     &.isOpen {
       animation: fadeIn 1.5s ease-out;
     }
-    // animation: ${({ isOpen }) => (isOpen ? fadeIn : fadeOut)} 1.5s ease-out
-    //   forwards;
+
+    > .message__wrapper {
+      width: 100%;
+      height: 100%;
+      display: flex;
+      flex-direction: column;
+    }
   }
 }
