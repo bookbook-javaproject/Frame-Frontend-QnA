@@ -1,0 +1,60 @@
+@import '../../../thema';
+
+@keyframes upToDown {
+  0% {
+    height: 450px;
+  }
+  30% {
+    height: 42px;
+  }
+  100% {
+    height: 0;
+    opacity: 0;
+  }
+}
+
+@keyframes downToUp {
+  0% {
+    height: 42px;
+    opacity: 0.3;
+  }
+  30% {
+    height: 42px;
+    opacity: 1;
+  }
+  100% {
+    height: 450px;
+  }
+}
+
+@keyframes fadeIn {
+}
+
+@keyframes fadeOut {
+}
+
+.chatting__wrapper {
+  width: 400px;
+  height: 450px;
+  margin-bottom: 10px;
+  border-radius: 12px;
+  border: 2px solid $MAIN_COLOR;
+  overflow: hidden;
+  animation: 1s ease-in-out 0s 1 normal forwards running upToDown;
+
+  &.isOpen {
+    animation: 1s ease-in-out 0s 1 normal forwards running downToUp;
+  }
+
+  > header {
+    width: 100%;
+    height: 42px;
+    line-height: 42px;
+    background-color: $MAIN_COLOR;
+    padding: 0 10px;
+    box-sizing: border-box;
+    font-family: $FONT_FAMILY;
+    font-size: 20px;
+    color: #ffffff;
+  }
+}
