@@ -6,7 +6,10 @@
   >
     <header>QnA</header>
     <main v-bind:class="isOpen ? 'isOpen' : ''">
-      <div v-if="isLogin"></div>
+      <div v-if="isLogin" class="message__wrapper">
+        <chatting-text />
+        <chatting-sender />
+      </div>
       <not-login v-else />
     </main>
   </div>
@@ -14,10 +17,15 @@
 
 <script>
 import NotLogin from '../notLogin';
+import ChattingText from '../chattingText';
+import ChattingSender from '../chattingSender';
+
 export default {
   name: 'Chatting',
   components: {
     'not-login': NotLogin,
+    'chatting-text': ChattingText,
+    'chatting-sender': ChattingSender,
   },
   props: {
     isOpen: Boolean,
