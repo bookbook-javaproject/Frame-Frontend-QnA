@@ -10,7 +10,7 @@ yarn add https://github.com/bookbook-javaproject/Frame-Frontend-QnA.git
 
 ## 사용 예시
 
-```vuejs
+```js
 <template>
   <messenger />
 </template>
