@@ -1,6 +1,6 @@
 <template>
   <div class="messenger__wrapper">
-    <chatting v-bind:isOpen="isOpen" />
+    <chatting v-bind:isOpen="isOpen" v-bind:isLogin="isLogin" />
     <button @click="toggleModal">
       <img :src="isOpen ? closeImage : chattingImage" />
     </button>
@@ -19,6 +19,7 @@ export default {
   data() {
     return {
       isOpen: false,
+      isLogin: false,
       chattingImage,
       closeImage,
     };
