@@ -78,6 +78,7 @@
     font-family: $FONT_FAMILY;
     font-size: 20px;
     color: #ffffff;
+    text-align: left;
   }
 
   > main {
@@ -86,6 +87,7 @@
     padding: 16px;
     box-sizing: border-box;
     animation: fadeOut 1.5s ease-out;
+    background-color: #ffffff;
 
     &.isOpen {
       animation: fadeIn 1.5s ease-out;
