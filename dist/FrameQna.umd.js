@@ -4,9 +4,9 @@
 	else if(typeof define === 'function' && define.amd)
 		define([], factory);
 	else if(typeof exports === 'object')
-		exports["frame-qna"] = factory();
+		exports["FrameQna"] = factory();
 	else
-		root["frame-qna"] = factory();
+		root["FrameQna"] = factory();
 })((typeof self !== 'undefined' ? self : this), function() {
 return /******/ (function(modules) { // webpackBootstrap
 /******/ 	// The module cache
@@ -2281,4 +2281,4 @@ module.exports = NATIVE_SYMBOL
 
 /******/ })["default"];
 });
-//# sourceMappingURL=frame-qna.umd.js.map
+//# sourceMappingURL=FrameQna.umd.js.map
