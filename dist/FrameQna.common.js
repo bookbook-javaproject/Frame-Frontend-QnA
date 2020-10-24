@@ -2271,4 +2271,4 @@ module.exports = NATIVE_SYMBOL
 /***/ })
 
 /******/ })["default"];
-//# sourceMappingURL=frame-qna.common.js.map
+//# sourceMappingURL=FrameQna.common.js.map
