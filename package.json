@@ -5,13 +5,13 @@
   "main": "./dist/FrameQnA.common.js",
   "private": false,
   "homepage": "https://github.com/bookbook-javaproject/Frame-Frontend-QnA",
+  "directories": {
+    "example": "example"
+  },
   "bug": {
     "email": "uchanlee.dev@gmail.com",
     "url": "https://github.com/bookbook-javaproject/Frame-Frontend-QnA/issues"
   },
-  "files": [
-    "dist/*"
-  ],
   "scripts": {
     "build": "vue-cli-service build --target lib --name FrameQnA",
     "exam": "cd example && npm serve"
