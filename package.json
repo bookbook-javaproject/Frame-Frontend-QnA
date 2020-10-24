@@ -1,45 +1,37 @@
 {
-  "name": "frame-frontend-qna",
-  "version": "0.1.0",
-  "private": true,
-  "scripts": {
-    "serve": "vue-cli-service serve",
-    "build": "vue-cli-service build",
-    "lint": "vue-cli-service lint"
+  "name": "frame-qna",
+  "version": "1.0.0",
+  "description": "Frame Q&A system",
+  "main": "./dist/FrameQnA.common.js",
+  "private": false,
+  "homepage": "https://github.com/bookbook-javaproject/Frame-Frontend-QnA",
+  "bug": {
+    "email": "uchanlee.dev@gmail.com",
+    "url": "https://github.com/bookbook-javaproject/Frame-Frontend-QnA/issues"
   },
+  "files": [
+    "dist/*"
+  ],
+  "scripts": {
+    "build": "vue-cli-service build --target lib --name FrameQnA",
+    "exam": "cd example && npm serve"
+  },
+  "author": {
+    "name": "woochanleee",
+    "email": "uchanlee.dev@gmail.com"
+  },
+  "license": "MIT",
   "dependencies": {
     "core-js": "^3.6.5",
     "file-loader": "^6.1.1",
+    "frame-frontend-qna": "https://github.com/bookbook-javaproject/Frame-Frontend-QnA.git",
     "sass": "^1.27.0",
     "sass-loader": "^10.0.4",
     "vue": "^2.6.11"
   },
   "devDependencies": {
     "@vue/cli-plugin-babel": "~4.5.0",
-    "@vue/cli-plugin-eslint": "~4.5.0",
     "@vue/cli-service": "~4.5.0",
-    "babel-eslint": "^10.1.0",
-    "eslint": "^6.7.2",
-    "eslint-plugin-vue": "^6.2.2",
     "vue-template-compiler": "^2.6.11"
-  },
-  "eslintConfig": {
-    "root": true,
-    "env": {
-      "node": true
-    },
-    "extends": [
-      "plugin:vue/essential",
-      "eslint:recommended"
-    ],
-    "parserOptions": {
-      "parser": "babel-eslint"
-    },
-    "rules": {}
-  },
-  "browserslist": [
-    "> 1%",
-    "last 2 versions",
-    "not dead"
-  ]
+  }
 }
