@@ -4,9 +4,9 @@
 	else if(typeof define === 'function' && define.amd)
 		define([], factory);
 	else if(typeof exports === 'object')
-		exports["FrameQna"] = factory();
+		exports["FrameQnA"] = factory();
 	else
-		root["FrameQna"] = factory();
+		root["FrameQnA"] = factory();
 })((typeof self !== 'undefined' ? self : this), function() {
 return /******/ (function(modules) { // webpackBootstrap
 /******/ 	// The module cache
@@ -1738,28 +1738,28 @@ if (typeof window !== 'undefined') {
 // Indicate to webpack that this file can be concatenated
 /* harmony default export */ var setPublicPath = (null);
 
-// CONCATENATED MODULE: ./node_modules/cache-loader/dist/cjs.js?{"cacheDirectory":"node_modules/.cache/vue-loader","cacheIdentifier":"a6dadfe6-vue-loader-template"}!./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/cache-loader/dist/cjs.js??ref--0-0!./node_modules/vue-loader/lib??vue-loader-options!./src/App.vue?vue&type=template&id=2d4510e1&
+// CONCATENATED MODULE: ./node_modules/cache-loader/dist/cjs.js?{"cacheDirectory":"node_modules/.cache/vue-loader","cacheIdentifier":"d6568b20-vue-loader-template"}!./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/cache-loader/dist/cjs.js??ref--0-0!./node_modules/vue-loader/lib??vue-loader-options!./src/App.vue?vue&type=template&id=2d4510e1&
 var render = function () {var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;return _c('div',{attrs:{"id":"app"}},[_c('messenger')],1)}
 var staticRenderFns = []
 
 
 // CONCATENATED MODULE: ./src/App.vue?vue&type=template&id=2d4510e1&
 
-// CONCATENATED MODULE: ./node_modules/cache-loader/dist/cjs.js?{"cacheDirectory":"node_modules/.cache/vue-loader","cacheIdentifier":"a6dadfe6-vue-loader-template"}!./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/cache-loader/dist/cjs.js??ref--0-0!./node_modules/vue-loader/lib??vue-loader-options!./src/views/messenger/index.vue?vue&type=template&id=0d991d03&scoped=true&
+// CONCATENATED MODULE: ./node_modules/cache-loader/dist/cjs.js?{"cacheDirectory":"node_modules/.cache/vue-loader","cacheIdentifier":"d6568b20-vue-loader-template"}!./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/cache-loader/dist/cjs.js??ref--0-0!./node_modules/vue-loader/lib??vue-loader-options!./src/views/messenger/index.vue?vue&type=template&id=0d991d03&scoped=true&
 var messengervue_type_template_id_0d991d03_scoped_true_render = function () {var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;return _c('div',{staticClass:"messenger__wrapper"},[_c('chatting',{attrs:{"isOpen":_vm.isOpen,"isLogin":_vm.isLogin}}),_c('button',{on:{"click":_vm.toggleModal}},[_c('img',{attrs:{"src":_vm.isOpen ? _vm.closeImage : _vm.chattingImage}})])],1)}
 var messengervue_type_template_id_0d991d03_scoped_true_staticRenderFns = []
 
 
 // CONCATENATED MODULE: ./src/views/messenger/index.vue?vue&type=template&id=0d991d03&scoped=true&
 
-// CONCATENATED MODULE: ./node_modules/cache-loader/dist/cjs.js?{"cacheDirectory":"node_modules/.cache/vue-loader","cacheIdentifier":"a6dadfe6-vue-loader-template"}!./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/cache-loader/dist/cjs.js??ref--0-0!./node_modules/vue-loader/lib??vue-loader-options!./src/views/chatting/index.vue?vue&type=template&id=7076cdaa&scoped=true&
+// CONCATENATED MODULE: ./node_modules/cache-loader/dist/cjs.js?{"cacheDirectory":"node_modules/.cache/vue-loader","cacheIdentifier":"d6568b20-vue-loader-template"}!./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/cache-loader/dist/cjs.js??ref--0-0!./node_modules/vue-loader/lib??vue-loader-options!./src/views/chatting/index.vue?vue&type=template&id=7076cdaa&scoped=true&
 var chattingvue_type_template_id_7076cdaa_scoped_true_render = function () {var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;return (_vm.animationRender)?_c('div',{class:_vm.isOpen ? 'chatting__wrapper isOpen' : 'chatting__wrapper',on:{"animationend":_vm.onAnimationEnd}},[_c('header',[_vm._v("QnA")]),_c('main',{class:_vm.isOpen ? 'isOpen' : ''},[(_vm.isLogin)?_c('div',{staticClass:"message__wrapper"},[_c('chatting-text'),_c('chatting-sender')],1):_c('not-login')],1)]):_vm._e()}
 var chattingvue_type_template_id_7076cdaa_scoped_true_staticRenderFns = []
 
 
 // CONCATENATED MODULE: ./src/views/chatting/index.vue?vue&type=template&id=7076cdaa&scoped=true&
 
-// CONCATENATED MODULE: ./node_modules/cache-loader/dist/cjs.js?{"cacheDirectory":"node_modules/.cache/vue-loader","cacheIdentifier":"a6dadfe6-vue-loader-template"}!./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/cache-loader/dist/cjs.js??ref--0-0!./node_modules/vue-loader/lib??vue-loader-options!./src/views/notLogin/index.vue?vue&type=template&id=6f988004&scoped=true&
+// CONCATENATED MODULE: ./node_modules/cache-loader/dist/cjs.js?{"cacheDirectory":"node_modules/.cache/vue-loader","cacheIdentifier":"d6568b20-vue-loader-template"}!./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/cache-loader/dist/cjs.js??ref--0-0!./node_modules/vue-loader/lib??vue-loader-options!./src/views/notLogin/index.vue?vue&type=template&id=6f988004&scoped=true&
 var notLoginvue_type_template_id_6f988004_scoped_true_render = function () {var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;return _vm._m(0)}
 var notLoginvue_type_template_id_6f988004_scoped_true_staticRenderFns = [function () {var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;return _c('div',{staticClass:"not-login__wrapper"},[_c('p',[_vm._v("로그인 후 이용할 수 있습니다")])])}]
 
@@ -1902,7 +1902,7 @@ var component = normalizeComponent(
 )
 
 /* harmony default export */ var notLogin = (component.exports);
-// CONCATENATED MODULE: ./node_modules/cache-loader/dist/cjs.js?{"cacheDirectory":"node_modules/.cache/vue-loader","cacheIdentifier":"a6dadfe6-vue-loader-template"}!./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/cache-loader/dist/cjs.js??ref--0-0!./node_modules/vue-loader/lib??vue-loader-options!./src/views/chattingText/index.vue?vue&type=template&id=10da6f3b&scoped=true&
+// CONCATENATED MODULE: ./node_modules/cache-loader/dist/cjs.js?{"cacheDirectory":"node_modules/.cache/vue-loader","cacheIdentifier":"d6568b20-vue-loader-template"}!./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/cache-loader/dist/cjs.js??ref--0-0!./node_modules/vue-loader/lib??vue-loader-options!./src/views/chattingText/index.vue?vue&type=template&id=10da6f3b&scoped=true&
 var chattingTextvue_type_template_id_10da6f3b_scoped_true_render = function () {var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;return _c('div',{ref:"infinityScrollRef",staticClass:"chatting-text__wrapper"},[(!_vm.chatData || !_vm.chatData.length)?_c('p',[_vm._v("Frame에 궁금한점이 있으신가요?")]):_vm._e(),_vm._l((_vm.chatData),function(data,index){return _c('div',{key:data.id,class:data.to === 'admin'
         ? ("chat-bubble isAdmin " + (_vm.chatData[index + 1]
               ? _vm.chatData[index + 1].to !== data.to
@@ -2001,7 +2001,7 @@ var chattingText_component = normalizeComponent(
 )
 
 /* harmony default export */ var chattingText = (chattingText_component.exports);
-// CONCATENATED MODULE: ./node_modules/cache-loader/dist/cjs.js?{"cacheDirectory":"node_modules/.cache/vue-loader","cacheIdentifier":"a6dadfe6-vue-loader-template"}!./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/cache-loader/dist/cjs.js??ref--0-0!./node_modules/vue-loader/lib??vue-loader-options!./src/views/chattingSender/index.vue?vue&type=template&id=0daea98c&scoped=true&
+// CONCATENATED MODULE: ./node_modules/cache-loader/dist/cjs.js?{"cacheDirectory":"node_modules/.cache/vue-loader","cacheIdentifier":"d6568b20-vue-loader-template"}!./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/cache-loader/dist/cjs.js??ref--0-0!./node_modules/vue-loader/lib??vue-loader-options!./src/views/chattingSender/index.vue?vue&type=template&id=0daea98c&scoped=true&
 var chattingSendervue_type_template_id_0daea98c_scoped_true_render = function () {var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;return _c('div',{staticClass:"chatting-sender__wrapper"},[_c('input',{attrs:{"type":"text","placeholder":"메세지를 입력해주세요."}}),_c('img',{attrs:{"src":_vm.senderImage,"alt":"전송이미지"}})])}
 var chattingSendervue_type_template_id_0daea98c_scoped_true_staticRenderFns = []
 
@@ -2281,4 +2281,4 @@ module.exports = NATIVE_SYMBOL
 
 /******/ })["default"];
 });
-//# sourceMappingURL=FrameQna.umd.js.map
+//# sourceMappingURL=FrameQnA.umd.js.map
