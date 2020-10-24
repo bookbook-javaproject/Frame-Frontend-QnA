@@ -1,0 +1,144 @@
+@import '../../../thema';
+
+.chatting-text__wrapper {
+  flex: 1 1 0%;
+  max-height: 325px;
+  overflow-y: scroll;
+  display: flex;
+  flex-direction: column;
+
+  &::-webkit-scrollbar {
+    width: 10px;
+    height: 10px;
+  }
+
+  &::-webkit-scrollbar-thumb {
+    border-radius: 8px;
+    background-color: $MAIN_COLOR;
+  }
+
+  &::-webkit-scrollbar-track-piece {
+    background-color: white;
+  }
+
+  > p {
+    width: 100%;
+    text-align: center;
+    font-family: $FONT_FAMILY;
+    font-size: 14px;
+    color: $MAIN_COLOR;
+  }
+
+  > .chat-bubble {
+    width: 100%;
+    margin-top: 4px;
+    display: flex;
+    justify-content: flex-end;
+
+    &.lastChat {
+      margin-bottom: 16px;
+    }
+
+    > p {
+      position: relative;
+      width: fit-content;
+      max-width: 258px;
+      min-height: 36px;
+      word-break: break-all;
+      padding: 10px 12px;
+      box-sizing: border-box;
+      font-size: 14px;
+      font-family: $FONT_FAMILY;
+      margin: 0;
+      background-color: $MAIN_COLOR;
+      color: #ffffff;
+      border-radius: 12px;
+      border-bottom-right-radius: 0;
+
+      &:hover {
+        > span {
+          display: block;
+        }
+      }
+
+      > span {
+        display: none;
+        font-size: 11px;
+        color: rgb(255, 255, 255);
+        max-width: 80px;
+        background: rgb(0, 0, 0);
+        padding: 5px;
+        position: absolute;
+        border-radius: 2px;
+        top: 50%;
+        transform: translateY(-50%);
+        left: -100px;
+
+        &::after {
+          left: 100%;
+          top: 50%;
+          border-style: solid;
+          border-image: initial;
+          content: ' ';
+          height: 0px;
+          width: 0px;
+          position: absolute;
+          pointer-events: none;
+          border-color: rgba(0, 0, 0, 0) rgba(0, 0, 0, 0) rgba(0, 0, 0, 0)
+            rgb(0, 0, 0);
+          border-width: 6px;
+          margin-top: -6px;
+        }
+      }
+    }
+
+    &.isAdmin {
+      justify-content: flex-start;
+
+      > p {
+        background-color: $GRAY_COLOR;
+        color: #000000;
+        border-bottom-right-radius: 12px;
+        border-bottom-left-radius: 0;
+
+        &:hover {
+          > span {
+            display: block;
+          }
+        }
+
+        > span {
+          display: none;
+          font-size: 11px;
+          color: rgb(255, 255, 255);
+          max-width: 80px;
+          background: rgb(0, 0, 0);
+          padding: 5px;
+          position: absolute;
+          border-radius: 2px;
+          top: 50%;
+          transform: translateY(-50%);
+          right: -100px;
+          left: auto;
+
+          &::after {
+            left: auto;
+            right: 100%;
+            top: 50%;
+            border-style: solid;
+            border-image: initial;
+            content: ' ';
+            height: 0px;
+            width: 0px;
+            position: absolute;
+            pointer-events: none;
+            border-color: rgba(0, 0, 0, 0) black rgba(0, 0, 0, 0)
+              rgba(0, 0, 0, 0);
+            border-width: 6px;
+            margin-top: -6px;
+          }
+        }
+      }
+    }
+  }
+}
