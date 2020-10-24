@@ -13,6 +13,7 @@
     "url": "https://github.com/bookbook-javaproject/Frame-Frontend-QnA/issues"
   },
   "scripts": {
+    "serve": "vue-cli-service serve",
     "build": "rollup -c",
     "watch": "rollup -cw",
     "exam": "cd example && npm serve"
@@ -23,12 +24,14 @@
   },
   "license": "MIT",
   "dependencies": {
+    "@vue/cli-service": "^4.5.8",
     "rollup": "^2.32.1",
     "rollup-plugin-commonjs": "^10.1.0",
     "rollup-plugin-node-resolve": "^5.2.0",
     "rollup-plugin-peer-deps-external": "^2.2.4",
     "rollup-plugin-url": "^3.0.1",
-    "rollup-plugin-vue": "^5.1.9"
+    "rollup-plugin-vue": "^5.1.9",
+    "sass-loader": "^10.0.4"
   },
   "peerDependencies": {
     "@vue/cli-plugin-babel": "~4.5.0",
