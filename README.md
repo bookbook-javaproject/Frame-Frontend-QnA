@@ -4,7 +4,7 @@ Frame Q&amp;A system front
 
 ## 사용방법
 
-```ter
+```sh
 yarn add https://github.com/bookbook-javaproject/Frame-Frontend-QnA.git
 ```
 
