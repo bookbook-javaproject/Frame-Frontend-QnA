@@ -2,7 +2,7 @@
   "name": "frame-qna",
   "version": "1.0.0",
   "description": "Frame Q&A system",
-  "main": "./dist/FrameQnA.common.js",
+  "main": "dist/FrameQnA.common.js",
   "private": false,
   "homepage": "https://github.com/bookbook-javaproject/Frame-Frontend-QnA",
   "directories": {
@@ -24,7 +24,6 @@
   "dependencies": {
     "core-js": "^3.6.5",
     "file-loader": "^6.1.1",
-    "frame-frontend-qna": "https://github.com/bookbook-javaproject/Frame-Frontend-QnA.git",
     "sass": "^1.27.0",
     "sass-loader": "^10.0.4",
     "vue": "^2.6.11"

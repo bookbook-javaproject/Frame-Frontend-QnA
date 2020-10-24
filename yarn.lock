@@ -3937,6 +3937,16 @@ fragment-cache@^0.2.1:
   dependencies:
     map-cache "^0.2.2"
 
+"frame-frontend-qna@https://github.com/bookbook-javaproject/Frame-Frontend-QnA.git":
+  version "0.1.0"
+  resolved "https://github.com/bookbook-javaproject/Frame-Frontend-QnA.git#cc131aafc743fb99746c0b7789d3a6aed3385cd7"
+  dependencies:
+    core-js "^3.6.5"
+    file-loader "^6.1.1"
+    sass "^1.27.0"
+    sass-loader "^10.0.4"
+    vue "^2.6.11"
+
 fresh@0.5.2:
   version "0.5.2"
   resolved "https://registry.yarnpkg.com/fresh/-/fresh-0.5.2.tgz#3d8cadd90d976569fa835ab1f8e4b23a105605a7"
