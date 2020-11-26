@@ -34,7 +34,7 @@ export default {
     return {
       chatData: new Array(20).fill(1).map((_, index) => ({
         id: index + 1,
-        content: '추후 개발 진행될 서비스 입니다.?',
+        content: '추후 개발 진행될 서비스 입니다.',
         to: index % 3 ? 'admin' : '',
         created_at: '2020년 10월 24일 15시 51분',
       })),
