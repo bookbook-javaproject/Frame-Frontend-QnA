@@ -1,6 +1,7 @@
 @import '../../../thema';
 
 .messenger__wrapper {
+  z-index: 1000;
   position: fixed;
   right: 40px;
   bottom: 40px;
